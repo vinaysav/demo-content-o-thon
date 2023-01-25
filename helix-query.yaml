@@ -1,0 +1,15 @@
+version: 1
+# See https://www.hlx.live/docs/setup-indexing.
+
+indices:
+  site:
+    include:
+      - '/posts/**'
+    exclude:
+      - '**/Document.*'
+    target: /query/query-index.xlsx
+    properties:
+      author:
+        select: head > meta[name="author"]
+        value: |
+          attribute(el, 'content')
