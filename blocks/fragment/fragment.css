@@ -1,3 +1,7 @@
 main .fragment-container .default-content-wrapper {
     text-align: center;
 }
+
+.default-content-wrapper > p:first-of-type {
+    display: none;
+}
