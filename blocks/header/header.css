@@ -334,4 +334,10 @@ header nav[aria-expanded='true'] .nav-tools li {
     padding: 16px;
     box-shadow: 0 10px 10px 5px #00000040;
   }
+  
+  header nav li.nav-drop > img {
+	  width:25px;
+	  height: 25px;
+  }
+	  
 }
