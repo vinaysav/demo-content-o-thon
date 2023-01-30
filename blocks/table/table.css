@@ -6,12 +6,17 @@
 .table table,
 .table th,
 .table td {
-  border: 1px solid;
+  border: 1px solid lightgrey; 
   padding: 14px;
   font-size: 12px;
   line-height: 16px;
   text-align: left;
   vertical-align: middle;
+}
+
+.table th {
+  background-color: lightgrey;
+  text-align: center;
 }
 
 .table table {
